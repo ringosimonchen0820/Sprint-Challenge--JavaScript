@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    // The biggest difference is that .map create a new array of same size and stored the value where as .foEach only modified each elements in the array when call.
+
 2. What is the difference between a function and a method?
+
+    // Method is a function enbedded in an object it is still a property of an object.
 
 3. What is closure?
 
+    // It allows you to access to outer function scope from an internal function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    // Global : this is a global object 
+    // Implicit: using dot notation  --- > this is refer to the current object's property
+    // Explicit: using call or apply --- > this is refer to the object that is passed as an argument
+    // Constructor : using new --- > this is a brand new object
+
 5. Why do we need super() in an extended class?
+
+    // It allows us to inherit the properties from the parent constructor
 
 ## Project Set up
 
